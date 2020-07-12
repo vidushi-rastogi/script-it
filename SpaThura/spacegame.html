@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/spacegame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>SpaThura</title>
+  </head>
+  <body>
+    <div id="text-content">
+      <div id="header">
+        <h1>SpaThura</h1>
+        <h2>The Space Game</h2>
+      </div>
+
+
+      <a href="#rules">
+        <button type="button" name="button" id="btn">Go Through Rules</button>
+      </a>
+    </div>
+    <div id="container">
+      <div id="rocket">
+        <img src="images/rocket.png" alt="" id="rocket-image">
+      </div>
+
+      <div id="alienship">
+        <div id="beam"></div>
+        <img src="images/UFO.png" alt="UFO" id="ufo">
+
+
+
+      </div>
+
+
+    </div>
+    <div id="score_div">
+      <p><b>Score: </b><span id="score">0</span></p>
+      <p><b>Speed: </b><span id="speed">10</span></p>
+    </div>
+
+    <button id="restart_btn">Restart</button>
+
+    <div id="rules">
+      <h4>For Desktop</h4>
+      <h3>Press <span>Enter</span> to start. <span>Shift Key</span> to move up the rocket.</h3>
+      <h4>For Mobile</h4>
+      <h3><span>Tap on screen</span> to move up the rocket.</h3>
+      <a href="#container" id="game-start">
+        <button type="button" name="button" id="btn">Click to Start</button>
+      </a>
+
+      <h5>Save your rocket from the Alienship beam attack and the game container bounderies!</h4>
+    </div>
+
+    <a href="#" id="a-go-back">
+      <button type="button" name="button" id="btn">Go Back</button>
+    </a>
+    <script src="js/JSjquery.min.js" charset="utf-8"></script>
+    <script src="js/spacegame.js" charset="utf-8"></script>
+  </body>
+</html>
